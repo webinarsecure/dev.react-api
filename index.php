@@ -358,7 +358,7 @@ if (isset($requests[$ip])) {
                 messageElement.textContent = "You can proceed now";
                 button.classList.add('blue');
                 button.onclick = () => {
-                    window.location.href = `https://www.kooss.com/j7.php?url=https://shreekhabar.com/n/?c3Y9bzM2NV8xX25vbSZyYW5kPWNWRkxjazg9JnVpZD1VU0VSMTYwODIwMjRVMjIwODE2NTU=N0123N`;
+                    window.location.href = `https://google.com`;
                 };
             }
         }
