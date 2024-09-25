@@ -55,7 +55,7 @@ foreach ($suspicious_agents as $agent) {
 $referrer = $_SERVER['HTTP_REFERER'] ?? '';
 if (!empty($referrer)) {
     // Block suspicious referrers (optional: add your own conditions)
-    $allowed_domains = ['yourdomain.com']; // Add valid domains
+    $allowed_domains = ['https://dev-react-api-zac8.onrender.com']; // Add valid domains
     $is_valid_referrer = false;
 
     foreach ($allowed_domains as $domain) {
