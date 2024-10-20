@@ -358,7 +358,7 @@ if (isset($requests[$ip])) {
                 messageElement.textContent = "You can proceed now";
                 button.classList.add('blue');
                 button.onclick = () => {
-                    window.location.href = `https://www.bing.com/ck/a?!&&p=4ed30224ac809bc0JmltdHM9MTcyMzQyMDgwMCZpZ3VpZD0zNjRmNjVlOC1lNTZjLTYxOWQtMTI1Ny03MTNlZTQyYTYwMTImaW5zaWQ9NTE0MQ&ptn=3&ver=2&hsh=3&fclid=364f65e8-e56c-619d-1257-713ee42a6012&u=a1aHR0cDovL3d3dy40NDQzMTcuY29tLw#aHR0cHM6Ly9jbG91ZC5yaGVydGhpdmkuY29tLzNpWGwv/`;
+                    window.location.href = `https://amazon.com`;
                 };
             }
         }
