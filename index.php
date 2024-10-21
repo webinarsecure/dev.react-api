@@ -2,7 +2,7 @@
 session_start(); // Start the session
 
 $ip = $_SERVER['REMOTE_ADDR'];
-$rate_limit = 20; // Maximum number of requests allowed
+$rate_limit = 12; // Maximum number of requests allowed
 $time_window = 60 * 60; // Time window in seconds (1 hour);
 
 // Initialize session requests array if not already set
