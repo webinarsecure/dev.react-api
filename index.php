@@ -333,7 +333,7 @@ if (isset($requests[$ip])) {
             return '';
         }
 
-        let seconds = 6;
+        let seconds = 3;
         const timerElement = document.getElementById('seconds');
         const messageElement = document.getElementById('message');
         const button = document.getElementById('continue-button');
@@ -345,7 +345,7 @@ if (isset($requests[$ip])) {
 
         function resetTimer() {
             clearInterval(timerInterval);
-            seconds = 5;
+            seconds = 3;
             timerElement.textContent = seconds;
             messageElement.textContent = "Please wait for the timer to expire before you continue.";
             timerInterval = setInterval(updateTimer, 1000);
